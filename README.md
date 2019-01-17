@@ -11,6 +11,8 @@ nodemon app.js
 
 If running properly, you should see: "WayScript Ajax Example Running At http://127.0.0.1:8081" in your terminal.
 
+In your browser go to http://127.0.0.1:8081
+
 ## Setup Wayscript Program
 
 If you don't have one already, register for a WayScript account
