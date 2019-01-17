@@ -1,2 +1,8 @@
-# ajax-to-python-example
-Example Code of Triggering Python from a Node Server with Ajax
+#WayScript Ajax to Python
+
+## Setup
+
+If you don't already have it installed, install node:
+```
+https://nodejs.org/en/
+```
