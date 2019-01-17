@@ -2,10 +2,7 @@
 
 ## Setup Node Application
 
-If you don't already have it installed, install node:
-```
-https://nodejs.org/en/
-```
+If you don't already have it installed, install node: https://nodejs.org/en/
 
 To Run The Server Enter:
 ```
