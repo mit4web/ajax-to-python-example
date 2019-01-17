@@ -1,4 +1,4 @@
-###WayScript Ajax to Python Example
+##WayScript Ajax to Python Example
 
 ## Setup Node Application
 
