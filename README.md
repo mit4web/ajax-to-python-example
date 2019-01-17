@@ -9,7 +9,7 @@ To Run The Server Enter:
 nodemon app.js
 ```
 
-If running properly you should see: WayScript Ajax Example Running At http://127.0.0.1:8081
+If running properly, you should see: "WayScript Ajax Example Running At http://127.0.0.1:8081" in your terminal.
 
 ## Setup Wayscript Program
 
