@@ -13,20 +13,20 @@ app.get( '/', function( req, res ) {
     res.sendFile( __dirname + '/templates/index.html' );
 } );
 
-
 app.post( '/wayscript_ajax', jsonParser, function( req, res ) {  
     
     //THIS MUST ALWAYS BE KEPT SERVER SIDE, NEVER EVER EMIT TO CLIENT
     //GET YOUR KEY AT https://wayscript.com/user/<your_username>
-    var secret_key = 'dsafds';
-    var prog_id = 0;
+    var prog_id = 4655;
+    var secret_key = '';
+
     if ( !secret_key.length )                       throw( 'Error: Must enter a valid api key in app.js' );
     if ( !prog_id || !Number.isInteger( prog_id ) ) throw( 'Error: Must enter a valid program id in app.js' );
 
     var url = 'https://wayscript.com/api?'  
     var variables = req.body
     var params = { api_key    : secret_key,
-                   program_id : 4614,
+                   program_id : prog_id,
                    variables  : JSON.stringify( variables )  }
     
     url = url + queryString.stringify( params );
