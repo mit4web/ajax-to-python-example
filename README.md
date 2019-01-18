@@ -35,6 +35,4 @@ https://wayscript.com/
       
 ![](readme_gifs/create_trigger.gif)
 
-![](readme_gifs/trigger.png)
-
 ## Run App
