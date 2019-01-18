@@ -1,5 +1,7 @@
 # WayScript Ajax to Python Example
 
+WayScript allows you to execute python scripts and recieve results back via an AJAX request. In this example, we use a Node server to run a WayScript program and recieve the results back. 
+
 ## Setup Node Application
 
 If you don't already have it installed, install node: https://nodejs.org/en/
