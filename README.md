@@ -16,7 +16,7 @@ npm install
 
 To Run The Server Enter:
 ```
-nodemon app.js
+node app.js
 ```
 If running properly, you should see: "WayScript Ajax Example Running" in your terminal
 
