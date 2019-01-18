@@ -29,7 +29,8 @@ $( document ).ready(function() {
     		},
     		error: function( error ) {  
     			$( '#result' ).empty();
-                $( '#result' ).append( '<li>ERROR: ' + error + '</li>'  );
+                console.log( error );
+                $( '#result' ).append( '<li>ERROR: Check the console log </li>'  );
     		}
     	});
     } );
