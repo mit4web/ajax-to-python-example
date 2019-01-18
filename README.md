@@ -24,4 +24,13 @@ https://wayscript.com/
 
 ![](readme_gifs/create_prog.gif)
 
+3) Drag in the 'Trigger' Module from Logic
+      - Set the Mode to 'Webhook'
+      - Create a Variable Called 'Name' and give it a default name (i.e. Mr. John Smith III ).
+      
+      
+![](readme_gifs/create_prog.gif)
+
+![](readme_gifs/trigger.png)
+
 ## Run App
