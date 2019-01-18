@@ -61,7 +61,7 @@ outputs[ 'Last Name' ] = name.last
 outputs[ 'Suffix' ] = name.suffix
 outputs[ 'Nick Name' ] = name.nickname
 ```
-
+2
 ![](readme_gifs/python2.gif)
 
 6) Set your outputs to return via the Ajax Request
@@ -77,6 +77,8 @@ outputs[ 'Nick Name' ] = name.nickname
 
 ![](readme_gifs/input.gif)
 
-2) Press The Run Button and the program executes the Python code and returns the results to your Node Server!
+2) Restart your Node Server to update your changes and refresh the site page.
+
+3) Press The Run Button and the program executes the Python code and returns the results to your Node Server!
 
 ![](readme_gifs/run_ajax.gif)
