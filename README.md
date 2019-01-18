@@ -15,9 +15,10 @@ In your browser go to http://127.0.0.1:8081
 
 ## Setup Wayscript Program
 
-If you don't have one already, register for a WayScript account
+1) If you don't have one already, register for a WayScript account
 ```
 https://wayscript.com/
 ```
+2) Create a New Program
 
 ## Run App
