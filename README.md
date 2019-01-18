@@ -2,6 +2,9 @@
 
 WayScript allows you to execute python scripts and recieve results back via an AJAX request. In this example, we use a Node server to run a WayScript program and recieve the results back. 
 
+In this example, a user can submit a name via a node server, and the data is passed to a python script that executes the 
+<a href="https://github.com/derek73/python-nameparser">Name Parser</a> library. The results are returned to the Node Server in real time. 
+
 ## Setup Node Application
 
 If you don't already have it installed, install node: https://nodejs.org/en/
