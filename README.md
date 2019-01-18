@@ -9,6 +9,11 @@ In this example, a user can submit a name via a node server, and the data is pas
 
 If you don't already have it installed, install node: https://nodejs.org/en/
 
+In the app root directory, type
+```
+npm install 
+```
+
 To Run The Server Enter:
 ```
 nodemon app.js
