@@ -18,7 +18,7 @@ app.post( '/wayscript_ajax', jsonParser, function( req, res ) {
     
     //THIS MUST ALWAYS BE KEPT SERVER SIDE, NEVER EVER EMIT TO CLIENT
     //GET YOUR KEY AT https://wayscript.com/user/<your_username>
-    var prog_id = 4655;
+    var prog_id = 0;
     var secret_key = '';
 
     if ( !secret_key.length )                       throw( 'Error: Must enter a valid api key in app.js' );
