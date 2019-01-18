@@ -8,6 +8,7 @@ const queryString = require('query-string');
 var app = express();
 
 app.use( "/public", express.static( __dirname + "/public" ) );
+app.use( "/static", express.static( __dirname + "/static" ) )
 
 app.get( '/', function( req, res ) {  
     res.sendFile( __dirname + '/templates/index.html' );

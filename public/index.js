@@ -1,6 +1,9 @@
 $( document ).ready(function() {
     $( '#button' ).off( 'click' );
-    $( '#button' ).click( function() {  
+    $( '#button' ).click( function() {
+        $( '#result' ).empty();
+        $( '#result' ).append( '<li>Running....</li>'  );
+
     	var submitted_name = $( '#name_input' ).val();
 
     	if ( !submitted_name.length ) return;
@@ -25,7 +28,8 @@ $( document ).ready(function() {
     			}
     		},
     		error: function( error ) {  
-    			console.log( error );
+    			$( '#result' ).empty();
+                $( '#result' ).append( '<li>ERROR: ' + error + '</li>'  );
     		}
     	});
     } );
