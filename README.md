@@ -68,3 +68,7 @@ outputs[ 'Nick Name' ] = name.nickname
 1) Open your app.js file and input your Program ID and API Key into the file.
 
 ![](readme_gifs/input.gif)
+
+2) Press The Run Button and the program executes the Python code and returns the results to your Node Server!
+
+![](readme_gifs/run_ajax.gif)
