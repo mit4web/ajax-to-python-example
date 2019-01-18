@@ -35,7 +35,7 @@ https://wayscript.com/
 
 3) Drag in the 'Trigger' Module from Logic.
       - Set the Mode to 'Webhook'.
-      - Create a Variable Called 'Name' and give it a default name (i.e. Captain Way Script III )
+      - In the Outputs section of the Trigger Module, create a Variable Called 'Name' and give it a default name (i.e. Captain Way Script III )
       
       
 ![](readme_gifs/create_trigger.gif)
