@@ -13,7 +13,7 @@ nodemon app.js
 
 ![](readme_gifs/terminal.gif)
 
-If running properly, you should see: "WayScript Ajax Example Running" in your terminal.
+If running properly, you should see: "WayScript Ajax Example Running" in your terminal
 
 In your browser go to http://127.0.0.1:8081
 
@@ -30,17 +30,17 @@ https://wayscript.com/
 
 3) Drag in the 'Trigger' Module from Logic.
       - Set the Mode to 'Webhook'.
-      - Create a Variable Called 'Name' and give it a default name (i.e. Captain Way Script III ).
+      - Create a Variable Called 'Name' and give it a default name (i.e. Captain Way Script III )
       
       
 ![](readme_gifs/create_trigger.gif)
 
-4) Drag in the Python Module as your next step.
-      - Select your Name variable under Inputs.
+4) Drag in the Python Module as your next step
+      - Select your Name variable under Inputs
 
 ![](readme_gifs/python1.gif)
 
-5) Copy and Past your Python Script into the CodeBox.
+5) Copy and Past your Python Script into the CodeBox
 ```
 #https://github.com/derek73/python-nameparser
 from nameparser import HumanName
@@ -56,5 +56,11 @@ outputs[ 'Last Name' ] = name.last
 outputs[ 'Suffix' ] = name.suffix
 outputs[ 'Nick Name' ] = name.nickname
 ```
+6) Set your outputs to return via the Ajax Request
+      - On the top of the Python Module, click "Display Dashboard Settings"
+      - Next to Each Output (Scroll Down in the Python Module) click "Show on Dashboard"
+      -You have now set each output to return via the Webhook
+
+![](readme_gifs/check_outputs.gif)
 
 ## Run App
