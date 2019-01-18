@@ -20,5 +20,7 @@ In your browser go to http://127.0.0.1:8081
 https://wayscript.com/
 ```
 2) Create a New Program
+```
 ![](readme_gifs/create_prog.gif)
+```
 ## Run App
