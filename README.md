@@ -64,3 +64,7 @@ outputs[ 'Nick Name' ] = name.nickname
 ![](readme_gifs/check_outputs.gif)
 
 ## Run App
+
+1) Open your app.js file and input your Program ID and API Key into the file.
+
+![](readme_gifs/input.gif)
