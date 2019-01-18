@@ -28,11 +28,33 @@ https://wayscript.com/
 
 ![](readme_gifs/create_prog.gif)
 
-3) Drag in the 'Trigger' Module from Logic
-      - Set the Mode to 'Webhook'
+3) Drag in the 'Trigger' Module from Logic.
+      - Set the Mode to 'Webhook'.
       - Create a Variable Called 'Name' and give it a default name (i.e. Captain Way Script III ).
       
       
 ![](readme_gifs/create_trigger.gif)
+
+4) Drag in the Python Module as your next step.
+      - Select your Name variable under Inputs.
+
+![](readme_gifs/create_trigger.gif)
+
+5) Copy and Past your Python Script into the CodeBox.
+```
+#https://github.com/derek73/python-nameparser
+from nameparser import HumanName
+
+name = inputs[ 'Name' ]
+
+name = HumanName( name )
+
+outputs[ 'Title' ] = name.title
+outputs[ 'First Name' ] = name.first
+outputs[ 'Middle Name' ] = name.middle
+outputs[ 'Last Name' ] = name.last
+outputs[ 'Suffix' ] = name.suffix
+outputs[ 'Nick Name' ] = name.nickname
+```
 
 ## Run App
