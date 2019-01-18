@@ -38,7 +38,7 @@ https://wayscript.com/
 4) Drag in the Python Module as your next step.
       - Select your Name variable under Inputs.
 
-![](readme_gifs/create_trigger.gif)
+![](readme_gifs/python1.gif)
 
 5) Copy and Past your Python Script into the CodeBox.
 ```
