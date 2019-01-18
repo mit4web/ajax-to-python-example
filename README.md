@@ -29,7 +29,7 @@ https://wayscript.com/
       - Create a Variable Called 'Name' and give it a default name (i.e. Mr. John Smith III ).
       
       
-![](readme_gifs/create_prog.gif)
+![](readme_gifs/create_trigger.gif)
 
 ![](readme_gifs/trigger.png)
 
