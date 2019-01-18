@@ -18,8 +18,8 @@ app.post( '/wayscript_ajax', jsonParser, function( req, res ) {
     
     //THIS MUST ALWAYS BE KEPT SERVER SIDE, NEVER EVER EMIT TO CLIENT
     //GET YOUR KEY AT https://wayscript.com/user/<your_username>
-    var prog_id = 4655;
-    var secret_key = 'rT9zrdJXob6ThZTJN3v09ZztTgv0ja0RRG01HN7zBQQ';
+    var prog_id = 0;
+    var secret_key = '';
 
     if ( !secret_key.length )                       throw( 'Error: Must enter a valid api key in app.js' );
     if ( !prog_id || !Number.isInteger( prog_id ) ) throw( 'Error: Must enter a valid program id in app.js' );
