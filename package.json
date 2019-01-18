@@ -1,0 +1,26 @@
+{
+  "name": "ajax-to-python-example",
+  "version": "1.0.0",
+  "description": "Use WayScript to trigger python via AJAX on a Node Server.",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "request": "^2.88.0",
+    "query-string": "^6.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wayscript/ajax-to-python-example.git"
+  },
+  "author": "WayScript",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wayscript/ajax-to-python-example/issues"
+  },
+  "homepage": "https://github.com/wayscript/ajax-to-python-example#readme"
+}
