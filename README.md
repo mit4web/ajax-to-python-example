@@ -13,9 +13,6 @@ To Run The Server Enter:
 ```
 nodemon app.js
 ```
-
-![](readme_gifs/terminal.gif)
-
 If running properly, you should see: "WayScript Ajax Example Running" in your terminal
 
 In your browser go to http://127.0.0.1:8081
