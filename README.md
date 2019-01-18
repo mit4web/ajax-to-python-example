@@ -56,6 +56,9 @@ outputs[ 'Last Name' ] = name.last
 outputs[ 'Suffix' ] = name.suffix
 outputs[ 'Nick Name' ] = name.nickname
 ```
+
+![](readme_gifs/python2.gif)
+
 6) Set your outputs to return via the Ajax Request
       - On the top of the Python Module, click "Display Dashboard Settings"
       - Next to Each Output (Scroll Down in the Python Module) click "Show on Dashboard"
